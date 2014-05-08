@@ -1789,7 +1789,7 @@
 				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SYMROOT = "$(HOME)/build";
+				SYMROOT = "$(PROJECT_DIR)/../../build";
 			};
 			name = Debug;
 		};

@@ -1301,7 +1301,8 @@
 		56DEC19C15262FC80031E8DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 56DEC19F15262FC80031E8DC /* Build configuration list for PBXProject "GRMustache" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1785,8 +1786,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_ENABLE_OBJC_GC = unsupported;
-				"GCC_ENABLE_OBJC_GC[arch=i386]" = supported;
-				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
+				"GCC_ENABLE_OBJC_GC[arch=i386]" = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(PROJECT_DIR)/../../build";
@@ -1800,8 +1801,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_ENABLE_OBJC_GC = unsupported;
-				"GCC_ENABLE_OBJC_GC[arch=i386]" = supported;
-				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
+				"GCC_ENABLE_OBJC_GC[arch=i386]" = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";

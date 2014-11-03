@@ -1238,7 +1238,7 @@
 			name = "GRMustache6-MacOSTests";
 			productName = "GRMustache6-MacOSTests";
 			productReference = 56DEC255152631040031E8DC /* GRMustache6-MacOSTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		56DEC26D1526311B0031E8DC /* GRMustache6-iOS */ = {
 			isa = PBXNativeTarget;
@@ -1274,7 +1274,7 @@
 			name = "GRMustache6-iOSTests";
 			productName = "GRMustache6-iOSTests";
 			productReference = 56DEC27B1526311C0031E8DC /* GRMustache6-iOSTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		ABAF866216A0A65A001ADE96 /* GRMustache6-MacOSTests-GC */ = {
 			isa = PBXNativeTarget;
@@ -1293,7 +1293,7 @@
 			name = "GRMustache6-MacOSTests-GC";
 			productName = "GRMustache6-MacOSTests";
 			productReference = ABAF86A516A0A65A001ADE96 /* GRMustache6-MacOSTests-GC.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1301,8 +1301,8 @@
 		56DEC19C15262FC80031E8DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0510;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 56DEC19F15262FC80031E8DC /* Build configuration list for PBXProject "GRMustache" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1741,9 +1741,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1771,9 +1771,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/../../build/SharedPrecompiledHeaders";
 				SYMROOT = "$(PROJECT_DIR)/../../build";
 			};
